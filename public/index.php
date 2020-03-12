@@ -1,10 +1,10 @@
 <?php
 require __DIR__.'/../vendor/autoload.php';
 
-phpinfo();
 
-$thumbnailer = new App\Thumbnailer();
-$thumbnailer->sayIt();
+
+$thumbnailer = new \App\Thumbnailer();
+$thumbnailer->generateThumbnail();
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html itemscope itemtype="http://schema.org/Product" id="ie6" class="ie ie-old" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
